@@ -25,4 +25,5 @@ C wrapper for the NexusMods API
     
     www.nexusmods.com:443
     GET /%s/ajax/modimages/?user=%d&id=%d&randomcode=%d&gid=%d HTTP/2.0
+    GET /%s/ajax/modrequirements/?id=%d HTTP/2.0
     Accept: text/html
