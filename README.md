@@ -1,6 +1,7 @@
 # NexusAPI
 C wrapper for the NexusMods API
 
+    nmm.nexusmods.com:80
     GET /%s/Sessions/?Login&username=%s&password=%s HTTP/1.1
     POST /%/Sessions/?Validate HTTP/1.1
     GET /%s/Mods/toggleendorsement/%s?lvote=%s&game_id=%s HTTP/1.1
@@ -22,3 +23,6 @@ C wrapper for the NexusMods API
     User-Agent: Nexus Client v0.63.15
     Accept: application/json
     
+    www.nexusmods.com:443
+    GET /%s/ajax/modimages/?user=%d&id=%d&randomcode=%d&gid=%d HTTP/2.0
+    Accept: text/html
